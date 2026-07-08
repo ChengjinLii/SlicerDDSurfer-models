@@ -1,0 +1,2 @@
+SlicerDDSurfer model asset sentinel v1.
+This tiny file is used to verify URL/mirror download and checksum plumbing without downloading model weights.
