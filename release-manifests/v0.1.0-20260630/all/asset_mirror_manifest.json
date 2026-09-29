@@ -1,0 +1,447 @@
+{
+  "asset_groups": [],
+  "copy_mode": "hardlink",
+  "created_utc": "2026-06-30T00:49:50+00:00",
+  "dry_run": false,
+  "git_commit": "312c99c052fb84cb4a4977a6731f25315edb150e",
+  "kind": "slicerdsurfer_model_asset_mirror",
+  "mirror_layout": "repository-relative paths",
+  "profile": "all",
+  "records": [
+    {
+      "expected_sha256": "b93f2272e4cf544727daa7b65018fb04003f3e4c25863610394332062de95bb7",
+      "expected_size_bytes": 39100303,
+      "path": "Resources/Data/100HCP-population-mean-T2.nii.gz",
+      "sha256": "b93f2272e4cf544727daa7b65018fb04003f3e4c25863610394332062de95bb7",
+      "size_bytes": 39100303,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "dc78230c3b2ed831ff058555765ce4358f7fe005da99733ab2c0ee35afe64c21",
+      "expected_size_bytes": 2415230,
+      "path": "Resources/Data/ckpts/hcp/DDCSR_pial_lh_Full_DualStream_no_b0_Cascaded.pt",
+      "sha256": "dc78230c3b2ed831ff058555765ce4358f7fe005da99733ab2c0ee35afe64c21",
+      "size_bytes": 2415230,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4b95141f5870fbe830838ed8ec84385e914aff719cbf44a667c0e7f348f39c3c",
+      "expected_size_bytes": 2420194,
+      "path": "Resources/Data/ckpts/hcp/DDCSR_pial_rh_Full_DualStream_no_b0_Cascaded.pt",
+      "sha256": "4b95141f5870fbe830838ed8ec84385e914aff719cbf44a667c0e7f348f39c3c",
+      "size_bytes": 2420194,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "ca5782eb16591d6fe49f232d5326826611e579b203ecf6d289e55e0383348858",
+      "expected_size_bytes": 12686434,
+      "path": "Resources/Data/ckpts/hcp/DDCSR_white_lh_Full_DualStream_no_b0_Cascaded.pt",
+      "sha256": "ca5782eb16591d6fe49f232d5326826611e579b203ecf6d289e55e0383348858",
+      "size_bytes": 12686434,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "03b85457c5d547d8315167e7adf347a6cf9583404b88666ad3e11a19f01cc9e6",
+      "expected_size_bytes": 12687796,
+      "path": "Resources/Data/ckpts/hcp/DDCSR_white_rh_Full_DualStream_no_b0_Cascaded.pt",
+      "sha256": "03b85457c5d547d8315167e7adf347a6cf9583404b88666ad3e11a19f01cc9e6",
+      "size_bytes": 12687796,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4e990cdaa733b3e021d710abe2f4f24920af2b25f6e6dfb63846bfe1071ce069",
+      "expected_size_bytes": 5825886,
+      "path": "Resources/Data/template/100307-FA.nii.gz",
+      "sha256": "4e990cdaa733b3e021d710abe2f4f24920af2b25f6e6dfb63846bfe1071ce069",
+      "size_bytes": 5825886,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "8655ced8fb79dd04253b10cc8694be6e8789d23afba955fb42ac69d92c85b0cd",
+      "expected_size_bytes": 13280597,
+      "path": "Resources/Data/template/hcp_hemi-left_init_160k.obj",
+      "sha256": "8655ced8fb79dd04253b10cc8694be6e8789d23afba955fb42ac69d92c85b0cd",
+      "size_bytes": 13280597,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "f825b4978edb25bee55c4d8dda6aae5f216cd421d2cc97759114a0fe3ff992c1",
+      "expected_size_bytes": 13419663,
+      "path": "Resources/Data/template/hcp_hemi-right_init_160k.obj",
+      "sha256": "f825b4978edb25bee55c4d8dda6aae5f216cd421d2cc97759114a0fe3ff992c1",
+      "size_bytes": 13419663,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "d5a797f5ed5ca3ab0c34b76a2af14874120db47b25f51d000d6d5037a5d4b03e",
+      "expected_size_bytes": 3205521,
+      "path": "parcellation/conversion/tests/data/CONVERTED_WIP_dti_ax_601.nii.gz",
+      "sha256": "d5a797f5ed5ca3ab0c34b76a2af14874120db47b25f51d000d6d5037a5d4b03e",
+      "size_bytes": 3205521,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "expected_size_bytes": 2886960,
+      "path": "parcellation/conversion/tests/data/Multi_WIP_dti_ax_601.nii.gz",
+      "sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "size_bytes": 2886960,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "expected_size_bytes": 2886960,
+      "path": "parcellation/conversion/tests/data/Repeated_WIP_dti_ax_601.nii.gz",
+      "sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "size_bytes": 2886960,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "expected_size_bytes": 2886960,
+      "path": "parcellation/conversion/tests/data/WIP_dti_ax_601.nii.gz",
+      "sha256": "4404dadcf1f5439302ad8d840b6bdf138ad9294ce9fa777e666f2aa5f3e9147d",
+      "size_bytes": 2886960,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "e330123ba4fb3ea440a3deb4c16200f74a8022cab41902f5c9239b45e81cb527",
+      "expected_size_bytes": 51611581,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-axial.pkl",
+      "sha256": "e330123ba4fb3ea440a3deb4c16200f74a8022cab41902f5c9239b45e81cb527",
+      "size_bytes": 51611581,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "1690ae3a6631d32579b1b91648098f68ac01d272c9c3cc2d52e44924df5ab05c",
+      "expected_size_bytes": 51611581,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-coronal.pkl",
+      "sha256": "1690ae3a6631d32579b1b91648098f68ac01d272c9c3cc2d52e44924df5ab05c",
+      "size_bytes": 51611581,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "82b3843cdfdb551eca21ac78b300a52f1c7e42eded92ef2bcf6e0084e44c78ad",
+      "expected_size_bytes": 51560621,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-sagittal.pkl",
+      "sha256": "82b3843cdfdb551eca21ac78b300a52f1c7e42eded92ef2bcf6e0084e44c78ad",
+      "size_bytes": 51560621,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "a96335aa059bcbd3b079f17fb1aa768b224a3ed94dec7baf3a47cd30b551139a",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-axial.pkl",
+      "sha256": "a96335aa059bcbd3b079f17fb1aa768b224a3ed94dec7baf3a47cd30b551139a",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "45ef5359104a31b62ccae7045bfec25725fbff4e67fa6a145e58d40285211f87",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-coronal.pkl",
+      "sha256": "45ef5359104a31b62ccae7045bfec25725fbff4e67fa6a145e58d40285211f87",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "d9c1d83d59fce85c2b6ed5074bea0895822d25a2117267b569398ca73ebd660d",
+      "expected_size_bytes": 21660428,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-sagittal.pkl",
+      "sha256": "d9c1d83d59fce85c2b6ed5074bea0895822d25a2117267b569398ca73ebd660d",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "75dab6bf98a631693db4414b3778aad18367cac5c810d55f6daec5e6477cddbe",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-axial.pkl",
+      "sha256": "75dab6bf98a631693db4414b3778aad18367cac5c810d55f6daec5e6477cddbe",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "47672c0b700164397c5fe6198ee8936c8a09d46d3ffda4bed43752464a42c9cd",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-coronal.pkl",
+      "sha256": "47672c0b700164397c5fe6198ee8936c8a09d46d3ffda4bed43752464a42c9cd",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "39cee3bfd6726acad53386c3d64b4b7e4fbbc797788eb938b0a49deecabcd450",
+      "expected_size_bytes": 21660428,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-sagittal.pkl",
+      "sha256": "39cee3bfd6726acad53386c3d64b4b7e4fbbc797788eb938b0a49deecabcd450",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "2828a3ddaab013b05ef2a8535914edc4022743be146f6d61543f86981458a3cd",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-axial.pkl",
+      "sha256": "2828a3ddaab013b05ef2a8535914edc4022743be146f6d61543f86981458a3cd",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "5110c611191dfdeb5c3ae7a606e1bcf67ddef3349c468b7718dcb30ccb7f6207",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-coronal.pkl",
+      "sha256": "5110c611191dfdeb5c3ae7a606e1bcf67ddef3349c468b7718dcb30ccb7f6207",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "b18c5d5fd3ea6204b4851969c226caa4ba942cd18361d454b7e5c86cec33394e",
+      "expected_size_bytes": 21660428,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-sagittal.pkl",
+      "sha256": "b18c5d5fd3ea6204b4851969c226caa4ba942cd18361d454b7e5c86cec33394e",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "d8dcf6877e372a9f1939818d236c5db833e84a1036749a5c05fd617a565f7a53",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-axial.pkl",
+      "sha256": "d8dcf6877e372a9f1939818d236c5db833e84a1036749a5c05fd617a565f7a53",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "9c97f98133c7eb2ad7156cab08a57c8904f436f5a895193e26a3a0ed161c9ccc",
+      "expected_size_bytes": 21682268,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-coronal.pkl",
+      "sha256": "9c97f98133c7eb2ad7156cab08a57c8904f436f5a895193e26a3a0ed161c9ccc",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "292f029a3d656a50329aa3bcce5bc9f795496bf434cb23d6769ee183478533b4",
+      "expected_size_bytes": 21660428,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-sagittal.pkl",
+      "sha256": "292f029a3d656a50329aa3bcce5bc9f795496bf434cb23d6769ee183478533b4",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "e331fa15cb531958f892e1b03eaef8405c3ddd927f4cd7427de841f9e9f41e77",
+      "expected_size_bytes": 124521692,
+      "path": "segmentation/weights/dti_axial.pt",
+      "sha256": "e331fa15cb531958f892e1b03eaef8405c3ddd927f4cd7427de841f9e9f41e77",
+      "size_bytes": 124521692,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "800a8467021471a99e9cbcec1e5b8cda4b0935018113a85b07d2b903890b8376",
+      "expected_size_bytes": 124414816,
+      "path": "segmentation/weights/dti_coronal.pt",
+      "sha256": "800a8467021471a99e9cbcec1e5b8cda4b0935018113a85b07d2b903890b8376",
+      "size_bytes": 124414816,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "5a150b5654d8f31ac03549bfd952aad40f176ffcd2c7bfb359ed9aaf3785612b",
+      "expected_size_bytes": 124476546,
+      "path": "segmentation/weights/dti_sagittal.pt",
+      "sha256": "5a150b5654d8f31ac03549bfd952aad40f176ffcd2c7bfb359ed9aaf3785612b",
+      "size_bytes": 124476546,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "4e990cdaa733b3e021d710abe2f4f24920af2b25f6e6dfb63846bfe1071ce069",
+      "expected_size_bytes": 5825886,
+      "path": "surface/template/100307-FA.nii.gz",
+      "sha256": "4e990cdaa733b3e021d710abe2f4f24920af2b25f6e6dfb63846bfe1071ce069",
+      "size_bytes": 5825886,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "8655ced8fb79dd04253b10cc8694be6e8789d23afba955fb42ac69d92c85b0cd",
+      "expected_size_bytes": 13280597,
+      "path": "surface/template/hcp_hemi-left_init_160k.obj",
+      "sha256": "8655ced8fb79dd04253b10cc8694be6e8789d23afba955fb42ac69d92c85b0cd",
+      "size_bytes": 13280597,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "expected_sha256": "f825b4978edb25bee55c4d8dda6aae5f216cd421d2cc97759114a0fe3ff992c1",
+      "expected_size_bytes": 13419663,
+      "path": "surface/template/hcp_hemi-right_init_160k.obj",
+      "sha256": "f825b4978edb25bee55c4d8dda6aae5f216cd421d2cc97759114a0fe3ff992c1",
+      "size_bytes": 13419663,
+      "source_ids": [
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    }
+  ],
+  "resolved_profiles": [
+    "all"
+  ],
+  "schema": "slicerddsurfer.model_assets.mirror.v1",
+  "terms_notices": [],
+  "version": 1
+}
