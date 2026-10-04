@@ -1,15 +1,4 @@
 {
-  "kind": "slicerdsurfer_model_asset_mirror",
-  "version": 1,
-  "schema": "slicerddsurfer.model_assets.mirror.v1",
-  "created_utc": "2026-10-03T19:47:45.456753+00:00",
-  "profile": "core",
-  "resolved_profiles": [
-    "core",
-    "surface",
-    "segmentation",
-    "parcellation"
-  ],
   "asset_groups": [
     "DDSurfer TANet surface model weights",
     "1-mm registration atlas",
@@ -17,316 +6,445 @@
     "DDSeg tissue-segmentation weights",
     "DDParcel parcellation weights"
   ],
+  "asset_root": "/data/chengjin/SlicerDDSurfer-models",
+  "download_sources": [
+    "slicerdsurfer_models_git",
+    "github_lfs",
+    "slicerdsurfer_models_release",
+    "huggingface",
+    "zenodo"
+  ],
+  "git_commit": "914788f65a8f35ad6febd9cc654977934550bde0",
+  "kind": "slicerdsurfer_model_asset_lockfile",
+  "mirror_policy": "Optional mirrors must preserve path, size, SHA256, and terms notices from this lockfile.",
+  "offline_package_policy": "Offline archives should be built from files verified by this lockfile and distributed only after asset terms are confirmed.",
+  "profile": "core",
+  "records": [
+    {
+      "exists": true,
+      "expected_sha256": "b93f2272e4cf544727daa7b65018fb04003f3e4c25863610394332062de95bb7",
+      "expected_size_bytes": 39100303,
+      "lfs_pointer": false,
+      "path": "Resources/Data/100HCP-population-mean-T2.nii.gz",
+      "sha256": "b93f2272e4cf544727daa7b65018fb04003f3e4c25863610394332062de95bb7",
+      "size_bytes": 39100303,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "e330123ba4fb3ea440a3deb4c16200f74a8022cab41902f5c9239b45e81cb527",
+      "expected_size_bytes": 51611581,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-axial.pkl",
+      "sha256": "e330123ba4fb3ea440a3deb4c16200f74a8022cab41902f5c9239b45e81cb527",
+      "size_bytes": 51611581,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "1690ae3a6631d32579b1b91648098f68ac01d272c9c3cc2d52e44924df5ab05c",
+      "expected_size_bytes": 51611581,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-coronal.pkl",
+      "sha256": "1690ae3a6631d32579b1b91648098f68ac01d272c9c3cc2d52e44924df5ab05c",
+      "size_bytes": 51611581,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "82b3843cdfdb551eca21ac78b300a52f1c7e42eded92ef2bcf6e0084e44c78ad",
+      "expected_size_bytes": 51560621,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/Fused-Unet-v3-noMax-sagittal.pkl",
+      "sha256": "82b3843cdfdb551eca21ac78b300a52f1c7e42eded92ef2bcf6e0084e44c78ad",
+      "size_bytes": 51560621,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "a96335aa059bcbd3b079f17fb1aa768b224a3ed94dec7baf3a47cd30b551139a",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-axial.pkl",
+      "sha256": "a96335aa059bcbd3b079f17fb1aa768b224a3ed94dec7baf3a47cd30b551139a",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "45ef5359104a31b62ccae7045bfec25725fbff4e67fa6a145e58d40285211f87",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-coronal.pkl",
+      "sha256": "45ef5359104a31b62ccae7045bfec25725fbff4e67fa6a145e58d40285211f87",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d9c1d83d59fce85c2b6ed5074bea0895822d25a2117267b569398ca73ebd660d",
+      "expected_size_bytes": 21660428,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-sagittal.pkl",
+      "sha256": "d9c1d83d59fce85c2b6ed5074bea0895822d25a2117267b569398ca73ebd660d",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "75dab6bf98a631693db4414b3778aad18367cac5c810d55f6daec5e6477cddbe",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-axial.pkl",
+      "sha256": "75dab6bf98a631693db4414b3778aad18367cac5c810d55f6daec5e6477cddbe",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "47672c0b700164397c5fe6198ee8936c8a09d46d3ffda4bed43752464a42c9cd",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-coronal.pkl",
+      "sha256": "47672c0b700164397c5fe6198ee8936c8a09d46d3ffda4bed43752464a42c9cd",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "39cee3bfd6726acad53386c3d64b4b7e4fbbc797788eb938b0a49deecabcd450",
+      "expected_size_bytes": 21660428,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-sagittal.pkl",
+      "sha256": "39cee3bfd6726acad53386c3d64b4b7e4fbbc797788eb938b0a49deecabcd450",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "2828a3ddaab013b05ef2a8535914edc4022743be146f6d61543f86981458a3cd",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-axial.pkl",
+      "sha256": "2828a3ddaab013b05ef2a8535914edc4022743be146f6d61543f86981458a3cd",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5110c611191dfdeb5c3ae7a606e1bcf67ddef3349c468b7718dcb30ccb7f6207",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-coronal.pkl",
+      "sha256": "5110c611191dfdeb5c3ae7a606e1bcf67ddef3349c468b7718dcb30ccb7f6207",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "b18c5d5fd3ea6204b4851969c226caa4ba942cd18361d454b7e5c86cec33394e",
+      "expected_size_bytes": 21660428,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-sagittal.pkl",
+      "sha256": "b18c5d5fd3ea6204b4851969c226caa4ba942cd18361d454b7e5c86cec33394e",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d8dcf6877e372a9f1939818d236c5db833e84a1036749a5c05fd617a565f7a53",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-axial.pkl",
+      "sha256": "d8dcf6877e372a9f1939818d236c5db833e84a1036749a5c05fd617a565f7a53",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "9c97f98133c7eb2ad7156cab08a57c8904f436f5a895193e26a3a0ed161c9ccc",
+      "expected_size_bytes": 21682268,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-coronal.pkl",
+      "sha256": "9c97f98133c7eb2ad7156cab08a57c8904f436f5a895193e26a3a0ed161c9ccc",
+      "size_bytes": 21682268,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "292f029a3d656a50329aa3bcce5bc9f795496bf434cb23d6769ee183478533b4",
+      "expected_size_bytes": 21660428,
+      "lfs_pointer": false,
+      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-sagittal.pkl",
+      "sha256": "292f029a3d656a50329aa3bcce5bc9f795496bf434cb23d6769ee183478533b4",
+      "size_bytes": 21660428,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "e331fa15cb531958f892e1b03eaef8405c3ddd927f4cd7427de841f9e9f41e77",
+      "expected_size_bytes": 124521692,
+      "lfs_pointer": false,
+      "path": "segmentation/weights/dti_axial.pt",
+      "sha256": "e331fa15cb531958f892e1b03eaef8405c3ddd927f4cd7427de841f9e9f41e77",
+      "size_bytes": 124521692,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "800a8467021471a99e9cbcec1e5b8cda4b0935018113a85b07d2b903890b8376",
+      "expected_size_bytes": 124414816,
+      "lfs_pointer": false,
+      "path": "segmentation/weights/dti_coronal.pt",
+      "sha256": "800a8467021471a99e9cbcec1e5b8cda4b0935018113a85b07d2b903890b8376",
+      "size_bytes": 124414816,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5a150b5654d8f31ac03549bfd952aad40f176ffcd2c7bfb359ed9aaf3785612b",
+      "expected_size_bytes": 124476546,
+      "lfs_pointer": false,
+      "path": "segmentation/weights/dti_sagittal.pt",
+      "sha256": "5a150b5654d8f31ac03549bfd952aad40f176ffcd2c7bfb359ed9aaf3785612b",
+      "size_bytes": 124476546,
+      "source_ids": [
+        "slicerdsurfer_models_git",
+        "github_lfs",
+        "slicerdsurfer_models_release",
+        "huggingface",
+        "zenodo"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "9c0f03a07b0967052d2be81bc359d188940f89794cd95c1369c48bc3a14e644a",
+      "expected_size_bytes": 13803987,
+      "lfs_pointer": false,
+      "path": "surface/template/100HCP-population-mean-T2-1mm.nii.gz",
+      "sha256": "9c0f03a07b0967052d2be81bc359d188940f89794cd95c1369c48bc3a14e644a",
+      "size_bytes": 13803987,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "4da63ee7b02bd3b45a1164c6c030fdd0e18903c821b47cdd7fc9d492b0a9ed1c",
+      "expected_size_bytes": 13275275,
+      "lfs_pointer": false,
+      "path": "surface/template/ddsurfer_lh_template.obj",
+      "sha256": "4da63ee7b02bd3b45a1164c6c030fdd0e18903c821b47cdd7fc9d492b0a9ed1c",
+      "size_bytes": 13275275,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "74186754cdac0510a595bab82818329703c9906384f1e6a8d1c8cad4eddaf1fe",
+      "expected_size_bytes": 13420964,
+      "lfs_pointer": false,
+      "path": "surface/template/ddsurfer_rh_template.obj",
+      "sha256": "74186754cdac0510a595bab82818329703c9906384f1e6a8d1c8cad4eddaf1fe",
+      "size_bytes": 13420964,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "bccb1efa6cba8bc251e38f24dab2159cc13ffcd3163d549d953aeb836a1fe927",
+      "expected_size_bytes": 340,
+      "lfs_pointer": false,
+      "path": "surface/weights/SHA256SUMS",
+      "sha256": "bccb1efa6cba8bc251e38f24dab2159cc13ffcd3163d549d953aeb836a1fe927",
+      "size_bytes": 340,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ac5a5f5b30fbb27627372447295e34f614e4b71e3f70551e44af88a635d97c27",
+      "expected_size_bytes": 45718165,
+      "lfs_pointer": false,
+      "path": "surface/weights/ddsurfer_lh_pial.pt",
+      "sha256": "ac5a5f5b30fbb27627372447295e34f614e4b71e3f70551e44af88a635d97c27",
+      "size_bytes": 45718165,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "0441f8991d2be2aa65c68fa7454b068d92f73089bdbd548b45f61a867ed5fa8f",
+      "expected_size_bytes": 45716667,
+      "lfs_pointer": false,
+      "path": "surface/weights/ddsurfer_lh_wm.pt",
+      "sha256": "0441f8991d2be2aa65c68fa7454b068d92f73089bdbd548b45f61a867ed5fa8f",
+      "size_bytes": 45716667,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d22ed9df70e618f5e2c2319619aab3418388ce271427925bf15baf5bf3216a24",
+      "expected_size_bytes": 45718165,
+      "lfs_pointer": false,
+      "path": "surface/weights/ddsurfer_rh_pial.pt",
+      "sha256": "d22ed9df70e618f5e2c2319619aab3418388ce271427925bf15baf5bf3216a24",
+      "size_bytes": 45718165,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ec6e2c6844fae44a61cda92ae369c3f19b5c2d0c9452e4391ed142e2ab4c0030",
+      "expected_size_bytes": 45716667,
+      "lfs_pointer": false,
+      "path": "surface/weights/ddsurfer_rh_wm.pt",
+      "sha256": "ec6e2c6844fae44a61cda92ae369c3f19b5c2d0c9452e4391ed142e2ab4c0030",
+      "size_bytes": 45716667,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    },
+    {
+      "exists": true,
+      "expected_sha256": "134b3a3e70a412a9c4722619b8428cf8aeb3a0e324ad40850b2e679d9180bfc6",
+      "expected_size_bytes": 1641,
+      "lfs_pointer": false,
+      "path": "surface/weights/manifest.json",
+      "sha256": "134b3a3e70a412a9c4722619b8428cf8aeb3a0e324ad40850b2e679d9180bfc6",
+      "size_bytes": 1641,
+      "source_ids": [
+        "slicerdsurfer_models_git"
+      ]
+    }
+  ],
+  "resolved_profiles": [
+    "core",
+    "surface",
+    "segmentation",
+    "parcellation"
+  ],
+  "schema": "slicerddsurfer.model_assets.lockfile.v1",
   "terms_notices": [
     "DDCSR surface weights, HCP-like templates, surface initialization meshes, and subject-derived FA examples are provided through the external SlicerDDSurfer-models asset source, but public redistribution and DOI-archive terms require author confirmation before manuscript submission.",
     "If redistribution terms cannot be confirmed, document an alternate access route in Data and Code Availability.",
     "DDSeg weights are needed for segmentation. Confirm redistribution terms and cite the peer-reviewed DDSeg method paper before treating these weights as unrestricted public assets.",
     "DDParcel weights are needed for parcellation. Confirm redistribution terms and cite the peer-reviewed DDParcel method paper before treating these weights as unrestricted public assets."
   ],
-  "mirror_layout": "repository-relative paths",
-  "copy_mode": "copy",
-  "dry_run": false,
-  "ddsurfer_upstream_commit": "c3fa631b340c3e06eb75ab4f0f9ac9a288a25488",
-  "records": [
-    {
-      "path": "Resources/Data/100HCP-population-mean-T2.nii.gz",
-      "size_bytes": 39100303,
-      "sha256": "b93f2272e4cf544727daa7b65018fb04003f3e4c25863610394332062de95bb7",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/Fused-Unet-v3-noMax-axial.pkl",
-      "size_bytes": 51611581,
-      "sha256": "e330123ba4fb3ea440a3deb4c16200f74a8022cab41902f5c9239b45e81cb527",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/Fused-Unet-v3-noMax-coronal.pkl",
-      "size_bytes": 51611581,
-      "sha256": "1690ae3a6631d32579b1b91648098f68ac01d272c9c3cc2d52e44924df5ab05c",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/Fused-Unet-v3-noMax-sagittal.pkl",
-      "size_bytes": 51560621,
-      "sha256": "82b3843cdfdb551eca21ac78b300a52f1c7e42eded92ef2bcf6e0084e44c78ad",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-axial.pkl",
-      "size_bytes": 21682268,
-      "sha256": "a96335aa059bcbd3b079f17fb1aa768b224a3ed94dec7baf3a47cd30b551139a",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-coronal.pkl",
-      "size_bytes": 21682268,
-      "sha256": "45ef5359104a31b62ccae7045bfec25725fbff4e67fa6a145e58d40285211f87",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-FractionalAnisotropy-reg-NormMasked-sagittal.pkl",
-      "size_bytes": 21660428,
-      "sha256": "d9c1d83d59fce85c2b6ed5074bea0895822d25a2117267b569398ca73ebd660d",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-axial.pkl",
-      "size_bytes": 21682268,
-      "sha256": "75dab6bf98a631693db4414b3778aad18367cac5c810d55f6daec5e6477cddbe",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-coronal.pkl",
-      "size_bytes": 21682268,
-      "sha256": "47672c0b700164397c5fe6198ee8936c8a09d46d3ffda4bed43752464a42c9cd",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MidEigenvalue-reg-NormMasked-sagittal.pkl",
-      "size_bytes": 21660428,
-      "sha256": "39cee3bfd6726acad53386c3d64b4b7e4fbbc797788eb938b0a49deecabcd450",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-axial.pkl",
-      "size_bytes": 21682268,
-      "sha256": "2828a3ddaab013b05ef2a8535914edc4022743be146f6d61543f86981458a3cd",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-coronal.pkl",
-      "size_bytes": 21682268,
-      "sha256": "5110c611191dfdeb5c3ae7a606e1bcf67ddef3349c468b7718dcb30ccb7f6207",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-MinEigenvalue-reg-NormMasked-sagittal.pkl",
-      "size_bytes": 21660428,
-      "sha256": "b18c5d5fd3ea6204b4851969c226caa4ba942cd18361d454b7e5c86cec33394e",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-axial.pkl",
-      "size_bytes": 21682268,
-      "sha256": "d8dcf6877e372a9f1939818d236c5db833e84a1036749a5c05fd617a565f7a53",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-coronal.pkl",
-      "size_bytes": 21682268,
-      "sha256": "9c97f98133c7eb2ad7156cab08a57c8904f436f5a895193e26a3a0ed161c9ccc",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "parcellation/weights/backbones/dti-Trace-reg-NormMasked-sagittal.pkl",
-      "size_bytes": 21660428,
-      "sha256": "292f029a3d656a50329aa3bcce5bc9f795496bf434cb23d6769ee183478533b4",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "segmentation/weights/dti_axial.pt",
-      "size_bytes": 124521692,
-      "sha256": "e331fa15cb531958f892e1b03eaef8405c3ddd927f4cd7427de841f9e9f41e77",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "segmentation/weights/dti_coronal.pt",
-      "size_bytes": 124414816,
-      "sha256": "800a8467021471a99e9cbcec1e5b8cda4b0935018113a85b07d2b903890b8376",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "segmentation/weights/dti_sagittal.pt",
-      "size_bytes": 124476546,
-      "sha256": "5a150b5654d8f31ac03549bfd952aad40f176ffcd2c7bfb359ed9aaf3785612b",
-      "source_ids": [
-        "slicerdsurfer_models_git",
-        "github_lfs",
-        "slicerdsurfer_models_release",
-        "huggingface",
-        "zenodo"
-      ]
-    },
-    {
-      "path": "surface/template/100HCP-population-mean-T2-1mm.nii.gz",
-      "size_bytes": 13803987,
-      "sha256": "9c0f03a07b0967052d2be81bc359d188940f89794cd95c1369c48bc3a14e644a",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/template/ddsurfer_lh_template.obj",
-      "size_bytes": 13275275,
-      "sha256": "4da63ee7b02bd3b45a1164c6c030fdd0e18903c821b47cdd7fc9d492b0a9ed1c",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/template/ddsurfer_rh_template.obj",
-      "size_bytes": 13420964,
-      "sha256": "74186754cdac0510a595bab82818329703c9906384f1e6a8d1c8cad4eddaf1fe",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/SHA256SUMS",
-      "size_bytes": 340,
-      "sha256": "bccb1efa6cba8bc251e38f24dab2159cc13ffcd3163d549d953aeb836a1fe927",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/ddsurfer_lh_pial.pt",
-      "size_bytes": 45718165,
-      "sha256": "ac5a5f5b30fbb27627372447295e34f614e4b71e3f70551e44af88a635d97c27",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/ddsurfer_lh_wm.pt",
-      "size_bytes": 45716667,
-      "sha256": "0441f8991d2be2aa65c68fa7454b068d92f73089bdbd548b45f61a867ed5fa8f",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/ddsurfer_rh_pial.pt",
-      "size_bytes": 45718165,
-      "sha256": "d22ed9df70e618f5e2c2319619aab3418388ce271427925bf15baf5bf3216a24",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/ddsurfer_rh_wm.pt",
-      "size_bytes": 45716667,
-      "sha256": "ec6e2c6844fae44a61cda92ae369c3f19b5c2d0c9452e4391ed142e2ab4c0030",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    },
-    {
-      "path": "surface/weights/manifest.json",
-      "size_bytes": 1641,
-      "sha256": "134b3a3e70a412a9c4722619b8428cf8aeb3a0e324ad40850b2e679d9180bfc6",
-      "source_ids": [
-        "slicerdsurfer_models_git"
-      ]
-    }
-  ]
+  "version": 1
 }
