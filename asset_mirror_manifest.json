@@ -2,7 +2,7 @@
   "kind": "slicerdsurfer_model_asset_mirror",
   "version": 1,
   "schema": "slicerddsurfer.model_assets.mirror.v1",
-  "created_utc": "2026-10-03T19:47:45.456753+00:00",
+  "created_utc": "2026-10-05T02:19:38.763337+00:00",
   "profile": "core",
   "resolved_profiles": [
     "core",
@@ -26,7 +26,7 @@
   "mirror_layout": "repository-relative paths",
   "copy_mode": "copy",
   "dry_run": false,
-  "ddsurfer_upstream_commit": "c3fa631b340c3e06eb75ab4f0f9ac9a288a25488",
+  "ddsurfer_upstream_commit": "a4ec44cf56651b411ab30b9c91cfac63cc3b2300",
   "records": [
     {
       "path": "Resources/Data/100HCP-population-mean-T2.nii.gz",
@@ -323,7 +323,7 @@
     {
       "path": "surface/weights/manifest.json",
       "size_bytes": 1641,
-      "sha256": "134b3a3e70a412a9c4722619b8428cf8aeb3a0e324ad40850b2e679d9180bfc6",
+      "sha256": "f5cc5bb23375937feab1075dea2f06e8965f627285eb6a9fac295247ae21a01c",
       "source_ids": [
         "slicerdsurfer_models_git"
       ]
