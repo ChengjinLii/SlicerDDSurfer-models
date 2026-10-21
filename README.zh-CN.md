@@ -38,8 +38,10 @@ WMA/ORG 官方 Zenodo 记录采用 CC BY 4.0；同时保留上游附带的 Slice
 `optional_assets_mirror_index.tsv`。代码仓库中的
 `models/external_assets_manifest.json` 保存可信摘要、大小、来源及分发策略。
 
-当前整理了本地资源，不代表新增大文件已经推送 GitHub。
-镜像地址在远端文件完成验证前保持 planned；不要把待上传目录宣传为已可下载。
+14 个可选资源已通过提交 `11167a5` 推送，其中 8 个为 LFS 二进制对象。
+公开资源镜像支持匿名 URL 下载，代码仓库可继续保持私有；本轮没有修改仓库可见性。
+干净目录中匿名下载 TractCloud 四个推理文件，大小及 SHA256 均已通过。
+另外从 GitHub 全新检出后独立回读，14 个可选资源的大小及 SHA256 全部通过，无未解析的 LFS 指针。
 
 从代码仓库验证本地目录：
 
@@ -53,6 +55,16 @@ python3 scripts/download_model_assets.py \
 完整 PNL 本地检查使用 `--profile pnl-cnn`；该组合包括受限 IIT 模板，
 导出工具会拒绝把整个组合打入镜像。WMA 解压内容可从受校验 ZIP 重新生成，
 本地索引记录每个解压文件的 SHA256。
+
+仅下载当前需要的可选资源，无需安装 Git 或 Git LFS 客户端：
+
+```bash
+python3 scripts/setup_optional_assets.py --profiles tractcloud wma \
+  --asset-root /path/to/resources --execute --accept-terms
+```
+
+GUI 中使用“环境与安装 > 准备所选分析环境”，确认许可后后台下载、校验并自动保存路径。
+下载权重和图谱不等于安装对应的算法运行环境。
 
 ---
 

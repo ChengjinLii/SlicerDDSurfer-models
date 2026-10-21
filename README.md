@@ -75,10 +75,14 @@ core profile. Merely cloning the code must not download every optional atlas.
 `optional_assets_mirror_manifest.json` and `optional_assets_mirror_index.tsv`
 describe the prepared optional mirror separately from the original core index.
 The code repository's `models/external_assets_manifest.json` is its download,
-integrity and redistribution-policy catalog. A prepared local catalog does not
-prove that a GitHub upload has completed; the new mirror source remains planned
-until remote bytes are verified. WMA's extracted local trees are ignored by Git
-and can be reproduced from the two pinned ZIPs.
+integrity and redistribution-policy catalog. The 14-file optional resource set
+was pushed in `11167a5`, including eight LFS binary objects. The public mirror
+supports anonymous URL downloads; the code repository can remain private.
+Anonymous TractCloud acquisition into a clean directory passed all four hashes.
+WMA's extracted local trees are ignored by Git and can be reproduced from the
+two pinned ZIPs and verified against the 849-file index. IIT is not in Git.
+Independent fresh-checkout readback verified all 14 optional file sizes and
+SHA256 values. Selected files contain no unresolved LFS pointers.
 
 Use the code repository to verify local resources:
 
@@ -101,14 +105,20 @@ See [resource notices](RESOURCE_NOTICES.md) before distributing any optional fil
 
 ## Download From SlicerDDSurfer
 
-After this repository is published, users can download the core profile from the
-code repository with:
+Users can download the core profile from the code repository with:
 
 ```bash
 python3 scripts/download_model_assets.py \
   --profile core \
   --source url \
-  --source-id slicerdsurfer_models_release
+  --source-id slicerdsurfer_models_git
+```
+
+Download only selected optional resources (no Git/Git LFS client required):
+
+```bash
+python3 scripts/setup_optional_assets.py --profiles tractcloud wma \
+  --asset-root /path/to/resources --execute --accept-terms
 ```
 
 If using a direct mirror URL:
