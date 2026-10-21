@@ -1,6 +1,14 @@
-# SlicerDDSurfer Models
+<div align="center">
 
-This repository stores large model weights and template assets used by
+# SlicerDDSurfer Resources
+
+[Code](https://github.com/ChengjinLii/SlicerDDSurfer) | [Layout](#layout) | [Optional Resources](#optional-resources) | [Notices](RESOURCE_NOTICES.md) | [中文](README.zh-CN.md)
+
+</div>
+
+---
+
+This repository stores model weights, atlases, templates and other large non-code runtime resources used by
 SlicerDDSurfer. The code repository is:
 
 https://github.com/ChengjinLii/SlicerDDSurfer
@@ -16,6 +24,10 @@ surface/template/
 segmentation/weights/
 parcellation/weights/
 Resources/Data/100HCP-population-mean-T2.nii.gz
+brain_mask/pnl_cnn/
+brain_mask/synthstrip/
+bundles/tractcloud/
+bundles/wma/archives/
 ```
 
 This allows the downloader in the code repository to restore assets without
@@ -43,6 +55,49 @@ atlas. `release-manifests/ddsurfer-sync-20261004.json` records the verified
 
 The source code repository also keeps `models/assets_manifest.json`, which is
 the canonical downloader manifest.
+
+---
+
+## Optional Resources
+
+The historical repository name is retained for compatibility; this is not a
+weights-only store. Optional resources are separate from the 31-file default
+core profile. Merely cloning the code must not download every optional atlas.
+
+| Group | Contents | Distribution |
+| --- | --- | --- |
+| PNL CNN | Three original HDF5 weights, architecture JSON, full upstream agreement | Mirrorable subset with notices |
+| IIT b0 template | Required by PNL; kept only in an authorized local working copy | **Not committed or mirrored**; written IIT permission is required for electronic redistribution |
+| TractCloud | Model, inference arguments, 308-byte atlas reference and upstream agreement | Minimal inference subset, not training/test datasets |
+| SynthStrip | Main version-1 model | Author's CC BY 4.0 option, attributed and unmodified |
+| WMA / ORG | Official registration and clustering ZIPs, upstream agreement | Separate opt-in archive profile; preserve ORG citation and CC BY 4.0 attribution |
+
+`optional_assets_mirror_manifest.json` and `optional_assets_mirror_index.tsv`
+describe the prepared optional mirror separately from the original core index.
+The code repository's `models/external_assets_manifest.json` is its download,
+integrity and redistribution-policy catalog. A prepared local catalog does not
+prove that a GitHub upload has completed; the new mirror source remains planned
+until remote bytes are verified. WMA's extracted local trees are ignored by Git
+and can be reproduced from the two pinned ZIPs.
+
+Use the code repository to verify local resources:
+
+```bash
+python3 scripts/download_model_assets.py \
+  --manifest models/external_assets_manifest.json \
+  --profile mirrorable-inference --asset-root /path/to/SlicerDDSurfer-models \
+  --verify-only
+```
+
+PNL's complete local verification uses `--profile pnl-cnn`; that profile includes
+the restricted IIT template and is deliberately refused by the mirror exporter.
+An upstream-only download cannot be redirected to arbitrary mirror URLs.
+
+Conda environments, Python/CUDA libraries, external executables, installer
+caches, raw subject data and analysis outputs do not belong in this repository.
+See [resource notices](RESOURCE_NOTICES.md) before distributing any optional files.
+
+---
 
 ## Download From SlicerDDSurfer
 

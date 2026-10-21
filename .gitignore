@@ -1,3 +1,8 @@
 __pycache__/
 *.tmp
 *.log
+# IIT requires express written permission before electronic redistribution.
+/brain_mask/pnl_cnn/IITmean_b0_256.nii.gz
+# Local extracted copies are derived from the versioned ORG zip archives.
+/bundles/wma/ORG-800FC-100HCP/
+/bundles/wma/ORG-RegAtlas-100HCP/

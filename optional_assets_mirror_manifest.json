@@ -1,0 +1,168 @@
+{
+  "asset_groups": [],
+  "copy_mode": "copy",
+  "created_utc": "2026-10-21T15:33:49+00:00",
+  "dry_run": false,
+  "git_commit": "5e2e64d68dd5df24524e3ff9f97294adeb252a5c",
+  "kind": "slicerdsurfer_model_asset_mirror",
+  "mirror_layout": "repository-relative paths",
+  "profile": "mirrorable-inference",
+  "records": [
+    {
+      "expected_sha256": "989fd5a64d9307268441c3525d59b31d59c20db864f0262ef53ad53ec495bdae",
+      "expected_size_bytes": 96841,
+      "path": "brain_mask/pnl_cnn/CompNetBasicModel.json",
+      "sha256": "989fd5a64d9307268441c3525d59b31d59c20db864f0262ef53ad53ec495bdae",
+      "size_bytes": 96841,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "e11d3c410769c68844109a86eed40ebedc655ea03c14f6f54f4f13749c5ead18",
+      "expected_size_bytes": 75337792,
+      "path": "brain_mask/pnl_cnn/weights-axial-improvement-08.h5",
+      "sha256": "e11d3c410769c68844109a86eed40ebedc655ea03c14f6f54f4f13749c5ead18",
+      "size_bytes": 75337792,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "248dcf90752d4e0a2e22a136c5f0ca6d3c9cb9b628d131ce869d9ef6cbea702c",
+      "expected_size_bytes": 75337792,
+      "path": "brain_mask/pnl_cnn/weights-coronal-improvement-08.h5",
+      "sha256": "248dcf90752d4e0a2e22a136c5f0ca6d3c9cb9b628d131ce869d9ef6cbea702c",
+      "size_bytes": 75337792,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "27aaafddac65617e0653c4da4fd0c650529fcc8150b4efd6b66135070ebc01bc",
+      "expected_size_bytes": 75337792,
+      "path": "brain_mask/pnl_cnn/weights-sagittal-improvement-09.h5",
+      "sha256": "27aaafddac65617e0653c4da4fd0c650529fcc8150b4efd6b66135070ebc01bc",
+      "size_bytes": 75337792,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "5525714ad257e12031974b608a7ee428f14ae28791c7ccbc0866271b24008d45",
+      "expected_size_bytes": 11038,
+      "path": "brain_mask/pnl_cnn/LICENSE.txt",
+      "sha256": "5525714ad257e12031974b608a7ee428f14ae28791c7ccbc0866271b24008d45",
+      "size_bytes": 11038,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "93b01cf532ff4e1739754866bb9d7b71c5f5dffc9e8e6d4cf95ac8c6a0431d6a",
+      "expected_size_bytes": 8876702,
+      "path": "bundles/tractcloud/TrainedModel/best_tract_f1_model.pth",
+      "sha256": "93b01cf532ff4e1739754866bb9d7b71c5f5dffc9e8e6d4cf95ac8c6a0431d6a",
+      "size_bytes": 8876702,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "fd521ca95673fb440a84c14078e287f42214975be60b7ff523e6b0df90480fda",
+      "expected_size_bytes": 1082,
+      "path": "bundles/tractcloud/TrainedModel/cli_args.txt",
+      "sha256": "fd521ca95673fb440a84c14078e287f42214975be60b7ff523e6b0df90480fda",
+      "size_bytes": 1082,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "62cbbae3dcf1c8d3792af3453c338bbce6fceed4705810a10e23b75b8d4b0fa9",
+      "expected_size_bytes": 308,
+      "path": "bundles/tractcloud/TrainData_800clu800ol/HCP_mass_center.npy",
+      "sha256": "62cbbae3dcf1c8d3792af3453c338bbce6fceed4705810a10e23b75b8d4b0fa9",
+      "size_bytes": 308,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "36b11d65aa04ba6633bc2401fd70fcd2707e796e6c4e2f179b62877f8d21589d",
+      "expected_size_bytes": 10510,
+      "path": "bundles/tractcloud/LICENSE.txt",
+      "sha256": "36b11d65aa04ba6633bc2401fd70fcd2707e796e6c4e2f179b62877f8d21589d",
+      "size_bytes": 10510,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "37417f802196186441aae3e7f385d94f8a98c64a88acaeaa2723af995c653e33",
+      "expected_size_bytes": 30851709,
+      "path": "brain_mask/synthstrip/synthstrip.1.pt",
+      "sha256": "37417f802196186441aae3e7f385d94f8a98c64a88acaeaa2723af995c653e33",
+      "size_bytes": 30851709,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "8ab81aed998ff417f91284a33a3c9233afaaeb314caa32d520f6123c2fd9e741",
+      "expected_size_bytes": 622973397,
+      "path": "bundles/wma/archives/ORG-800FC-100HCP.zip",
+      "sha256": "8ab81aed998ff417f91284a33a3c9233afaaeb314caa32d520f6123c2fd9e741",
+      "size_bytes": 622973397,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "c2b024980999b925ea896c49183995bfc97aeed8cbb648946dcbfa9e3ea6a5f1",
+      "expected_size_bytes": 1181764875,
+      "path": "bundles/wma/archives/ORG-RegAtlas-100HCP.zip",
+      "sha256": "c2b024980999b925ea896c49183995bfc97aeed8cbb648946dcbfa9e3ea6a5f1",
+      "size_bytes": 1181764875,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "a889bd80409a5128d8146474e0eabdb29f7c9a1402415f589e364cfb55109662",
+      "expected_size_bytes": 10512,
+      "path": "bundles/wma/LICENSE.txt",
+      "sha256": "a889bd80409a5128d8146474e0eabdb29f7c9a1402415f589e364cfb55109662",
+      "size_bytes": 10512,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    },
+    {
+      "expected_sha256": "b9b506e9b61628e84be4791b4532c8c88be7c3f335ba1d0f481c124a8752cada",
+      "expected_size_bytes": 149489,
+      "path": "bundles/wma/extracted_resource_index.json",
+      "sha256": "b9b506e9b61628e84be4791b4532c8c88be7c3f335ba1d0f481c124a8752cada",
+      "size_bytes": 149489,
+      "source_ids": [
+        "optional_models_mirror"
+      ]
+    }
+  ],
+  "resolved_profiles": [
+    "mirrorable-inference",
+    "pnl-cnn-weights",
+    "tractcloud",
+    "synthstrip",
+    "wma"
+  ],
+  "schema": "slicerddsurfer.model_assets.mirror.v1",
+  "terms_notices": [
+    "Preserve the complete PNL/BWH agreement and attribution. This profile deliberately excludes the third-party IIT template.",
+    "Unmodified inference subset only. Preserve the complete Slicer/BWH agreement and cite TractCloud and its ORG reference atlas. No raw subject or training/test data included.",
+    "Unmodified model by Andrew Hoopes, Jocelyn S. Mora, Adrian V. Dalca, Bruce Fischl and Malte Hoffmann, NeuroImage 260:119474 (2022). Distributed under the author's CC BY 4.0 option: https://creativecommons.org/licenses/by/4.0/. Weights alone do not install the SynthStrip runtime.",
+    "ORG atlas, doi:10.5281/zenodo.2648292, unmodified. CC BY 4.0 per the pinned Zenodo record; preserve attribution, citation and the upstream Slicer agreement. No subject-level DWI data.",
+    "An allowlist of inference resources, not every dependency. Not proof of completed GitHub upload or universal licensing clearance."
+  ],
+  "version": 1
+}
